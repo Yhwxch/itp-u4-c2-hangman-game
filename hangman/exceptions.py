@@ -20,3 +20,6 @@ class GameFinishedException(Exception):
 
 class InvalidGuessedLetterException(Exception):
     pass
+
+class AlreadyGuessedLetterException(Exception):
+    pass
